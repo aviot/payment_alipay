@@ -16,8 +16,6 @@
                 <input type="hidden" name="return_url" t-att-value="tx_values['return_url']"/>
                 <input type="hidden" name="notify_url" t-att-value="tx_values['notify_url']"/>
                 <input type="hidden" name="sign" t-att-value="tx_values['sign']"/>
-                <input t-if="tx_values.get('return_url')" type='hidden' name='return_url'
-                    t-att-value="tx_values.get('return_url')"/>
                 <!-- submit -->
                 <button type="submit" width="100px"
                     t-att-class="submit_class">
@@ -42,8 +40,6 @@
                 <input type="hidden" name="return_url" t-att-value="tx_values['return_url']"/>
                 <input type="hidden" name="notify_url" t-att-value="tx_values['notify_url']"/>
                 <input type="hidden" name="sign" t-att-value="tx_values['sign']"/>
-                <input t-if="tx_values.get('return_url')" type='hidden' name='return_url'
-                    t-att-value="tx_values.get('return_url')"/>
                 <!-- submit -->
                 <button type="submit" width="100px"
                     t-att-class="submit_class">
